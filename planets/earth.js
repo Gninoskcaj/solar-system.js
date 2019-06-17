@@ -21,15 +21,15 @@ scene.add(circle);
 
 let sun = new THREE.TextureLoader().load('https://space-assets-1.s3.us-east-2.amazonaws.com/sun_1.jpg')
 
-var bulbLight = new THREE.PointLight(0xffffff, 3, 50);
+let bulbLight = new THREE.PointLight(0xffffff, 3, 50);
 bulbLight.position.set(50, 50, 50);
 
-var bulbGeo = new THREE.SphereBufferGeometry(2, 16)
+let bulbGeo = new THREE.SphereBufferGeometry(2, 32, 16)
 
 bulbMat = new THREE.MeshStandardMaterial({
 	emissive: 'white',
 	emissiveMap: sun,
-	emissiveIntensity: 3,
+	emissiveIntensity: 1,
 	map: sun,
 });
 
@@ -42,7 +42,9 @@ scene.add(bulbLight);
 
 
 
-camera.position.z = 5;
+camera.position.z = 12;
+camera.position.x = 17;
+camera.position.z = -12;
 let controls = new THREE.OrbitControls(camera, renderer.domElement);
 circle.rotation.x -= .6;
 // #3
