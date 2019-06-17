@@ -3918,7 +3918,7 @@
 		setFromBufferAttribute: function ( attribute ) {
 
 			let minX = + Infinity;
-			let minY = + Infinity;
+			let  minY = + Infinity;
 			let minZ = + Infinity;
 
 			let maxX = - Infinity;
