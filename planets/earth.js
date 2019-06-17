@@ -20,9 +20,7 @@ scene.add(bulbLight);
 
 
 
-camera.position.z = 12;
-camera.position.x = 17;
-camera.position.z = -12;
+
 circle.rotation.x -= .6;
 // #3
 let render = function () {
