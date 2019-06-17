@@ -6,7 +6,7 @@ let geometry = new THREE.SphereBufferGeometry(2, 32, 16);
 let material = new THREE.MeshStandardMaterial({
 	flatShading: false,
 	wireframe: false,
-	map: texture
+	map: texture,
 });
 let circle = new THREE.Mesh(geometry, material);
 scene.add(circle);
