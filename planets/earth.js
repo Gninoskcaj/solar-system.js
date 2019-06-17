@@ -10,19 +10,9 @@ let material = new THREE.MeshStandardMaterial({
 });
 let circle = new THREE.Mesh(geometry, material);
 scene.add(circle);
-
-bulbLight.add(new THREE.Mesh(bulbGeo, bulbMat));
-bulbLight.position.set(0, 2, 0);
-bulbLight.castShadow = true;
-scene.add(bulbLight);
-
-
-
-
-
-
 circle.rotation.x -= .6;
-// #3
+
+
 let render = function () {
 	let time = Date.now()
 
