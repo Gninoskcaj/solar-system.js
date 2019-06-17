@@ -133,9 +133,9 @@ THREE.FlyControls = function ( object, domElement ) {
 
 		if ( ! this.dragToLook || this.mouseStatus > 0 ) {
 
-			var container = this.getContainerDimensions();
-			var halfWidth = container.size[ 0 ] / 2;
-			var halfHeight = container.size[ 1 ] / 2;
+			let container = this.getContainerDimensions();
+			let halfWidth = container.size[ 0 ] / 2;
+			let halfHeight = container.size[ 1 ] / 2;
 
 			this.moveState.yawLeft = - ( ( event.pageX - container.offset[ 0 ] ) - halfWidth ) / halfWidth;
 			this.moveState.pitchDown = ( ( event.pageY - container.offset[ 1 ] ) - halfHeight ) / halfHeight;
@@ -176,8 +176,8 @@ THREE.FlyControls = function ( object, domElement ) {
 
 	this.update = function ( delta ) {
 
-		var moveMult = delta * this.movementSpeed;
-		var rotMult = delta * this.rollSpeed;
+		let moveMult = delta * this.movementSpeed;
+		let rotMult = delta * this.rollSpeed;
 
 		this.object.translateX( this.moveVector.x * moveMult );
 		this.object.translateY( this.moveVector.y * moveMult );
@@ -194,7 +194,7 @@ THREE.FlyControls = function ( object, domElement ) {
 
 	this.updateMovementVector = function () {
 
-		var forward = ( this.moveState.forward || ( this.autoForward && ! this.moveState.back ) ) ? 1 : 0;
+		let forward = ( this.moveState.forward || ( this.autoForward && ! this.moveState.back ) ) ? 1 : 0;
 
 		this.moveVector.x = ( - this.moveState.left + this.moveState.right );
 		this.moveVector.y = ( - this.moveState.down + this.moveState.up );
@@ -262,11 +262,11 @@ THREE.FlyControls = function ( object, domElement ) {
 
 	};
 
-	var _mousemove = bind( this, this.mousemove );
-	var _mousedown = bind( this, this.mousedown );
-	var _mouseup = bind( this, this.mouseup );
-	var _keydown = bind( this, this.keydown );
-	var _keyup = bind( this, this.keyup );
+	let _mousemove = bind( this, this.mousemove );
+	let _mousedown = bind( this, this.mousedown );
+	let _mouseup = bind( this, this.mouseup );
+	let _keydown = bind( this, this.keydown );
+	let _keyup = bind( this, this.keyup );
 
 	this.domElement.addEventListener( 'contextmenu', contextmenu, false );
 
