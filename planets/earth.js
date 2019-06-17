@@ -8,6 +8,11 @@ let material = new THREE.MeshStandardMaterial({
 	wireframe: false,
 	map: texture,
 });
-let circle = new THREE.Mesh(geometry, material);
-scene.add(circle);
-circle.rotation.x -= .6;
+let earth = new THREE.Mesh(geometry, material);
+scene.add( earth );
+earth.rotation.x -= .6;
+
+var geometry = new THREE.CircleGeometry( 5, 32 );
+var material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
+var circle = new THREE.Mesh( geometry, material );
+scene.add( circle );
