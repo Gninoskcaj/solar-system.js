@@ -38716,8 +38716,6 @@
 						case 'ShapeGeometry':
 						case 'ShapeBufferGeometry':
 
-							let geometryShapes = [];
-
 							for ( let j = 0, jl = data.shapes.length; j < jl; j ++ ) {
 
 								let shape = shapes[ data.shapes[ j ] ];
