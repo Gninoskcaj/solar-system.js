@@ -15,7 +15,7 @@ function render() {
 
 
 	earth.rotation.y += .25;
-	sun.rotation.y += .05;
+	sun.rotation.y += .01;
 	mars
 	renderer.render(scene, camera);
 };
