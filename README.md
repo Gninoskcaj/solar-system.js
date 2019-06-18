@@ -13,7 +13,7 @@ A powerful library for creating 3D solar-systems
   * [x] Create Earth
   * [ ] Create `satern`
   * [ ] Create `jupiter`
-  * [ ] Create `mars`
+  * [x] Create `mars`
   * [ ] Create `mercury`
   * [ ] Create `neptune`
   * [x] Create `sun`
