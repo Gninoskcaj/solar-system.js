@@ -25,6 +25,10 @@
 
 `earthColorMap`
 
+`earthNormalMap`
+
+`earthMetalnessMap`
+
 `earthGeo`
 
 `earthStandardMater`
