@@ -9,4 +9,3 @@
 	});
 	let mars = new THREE.Mesh(marsGeometry, marsMaterial);
 	scene.add(mars);
-	mars.rotation.x -= .6;
