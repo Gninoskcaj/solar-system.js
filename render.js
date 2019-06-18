@@ -9,9 +9,9 @@ function render() {
 	earth.position.z = Math.sin(time * 0.001) * 10;
 
 	// Mars
-	mars.position.x = Math.cos(time * 0.00115) * 30;
-	mars.position.y = Math.sin(time * 0.00115) * 30;
-	mars.position.z = Math.sin(time * 0.00115) * 30;
+	mars.position.x = Math.cos(time * 0.00115) * 11;
+	mars.position.y = Math.sin(time * 0.00115) * 11;
+	mars.position.z = Math.sin(time * 0.00115) * 11;
 
 
 	earth.rotation.y += .25;
