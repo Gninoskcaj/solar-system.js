@@ -1,5 +1,3 @@
-function earth() {
-
 
 	let texture = new THREE.TextureLoader().load(
 		'https://space-assets-1.s3.us-east-2.amazonaws.com/land_ocean_ice_cloud_2048.jpg');
@@ -13,5 +11,3 @@ function earth() {
 	let earth = new THREE.Mesh(geometry, material);
 	scene.add(earth);
 	earth.rotation.x -= .6;
-}
-earth()
