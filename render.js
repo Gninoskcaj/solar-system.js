@@ -1,4 +1,4 @@
-let render = function () {
+function render() {
 	let time = Date.now()
 
 	requestAnimationFrame(render);
