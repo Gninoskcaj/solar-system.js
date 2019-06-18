@@ -1,6 +1,22 @@
 
-# Reserved Variables
+# Variables
 
-## Earth.js
+# Variables:
 
-`earthMap`
+### `/Init.js`
+<hr>
+
+
+
+
+
+
+### `planets/earth.js`
+
+`earthColorMap`
+
+`earthGeo`
+
+`earthStandardMater`
+
+`earth`
