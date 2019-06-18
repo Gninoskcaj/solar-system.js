@@ -5,8 +5,8 @@
 	let marsMaterial = new THREE.MeshStandardMaterial({
 		flatShading: false,
 		wireframe: false,
-		map: texture,
+		map: marsTexture,
 	});
-	let mars = new THREE.Mesh(geometry, material);
+	let mars = new THREE.Mesh(marsGeometry, marsMaterial);
 	scene.add(mars);
 	mars.rotation.x -= .6;
