@@ -6,6 +6,8 @@
 	let material = new THREE.MeshStandardMaterial({
 		flatShading: false,
 		wireframe: false,
+		normalMap: earthNormalMap,
+		metalnessMap: earthMetalnessMap,
 		map: texture,
 	});
 	let earth = new THREE.Mesh(geometry, material);
