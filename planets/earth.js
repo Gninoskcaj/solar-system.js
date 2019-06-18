@@ -20,5 +20,4 @@ let earthStandardMater = new THREE.MeshStandardMaterial({
 	map: earthColorMap,
 });
 let earth = new THREE.Mesh(earthGeo, earthStandardMater);
-earth.rotation.x -= .6;
 scene.add(earth);
