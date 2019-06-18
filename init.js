@@ -10,3 +10,5 @@ function init() {
 	camera.position.x = 20;
 	camera.position.z = 12;
 }
+
+init()
