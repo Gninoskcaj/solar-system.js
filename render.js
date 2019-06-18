@@ -4,14 +4,12 @@ function render() {
 	requestAnimationFrame(render);
 
 	// Earth
-	earth.position.x = Math.cos(time * 0.001) * 12;
-	earth.position.y = Math.sin(time * 0.001) * 12;
-	earth.position.z = Math.sin(time * 0.001) * 12;
+	earth.position.x = Math.cos(time * 0.001) * 14;
+	earth.position.z = Math.sin(time * 0.001) * 14;
 
 	// Mars
-	mars.position.x = Math.cos(time * 0.00095) * 14;
-	mars.position.y = Math.sin(time * 0.00095) * 14;
-	mars.position.z = Math.sin(time * 0.00095) * 14;
+	mars.position.x = Math.cos(time * 0.00095) * 17;
+	mars.position.z = Math.sin(time * 0.00095) * 17;
 
 
 	earth.rotation.y += .365;
