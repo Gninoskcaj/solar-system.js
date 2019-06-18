@@ -4,7 +4,7 @@
 
 A powerful library for creating 3D solar-systems
 
-## Todo
+## This list needs to be complete before it is usable
 
 * [x] Create `README.md`
 * [ ] Create `sun` w/o pic
