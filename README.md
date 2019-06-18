@@ -1,3 +1,5 @@
+# WARNING: This project is still in early development. It is not yet complete.
+
 # Solar-System.js
 
 A powerful library for creating 3D solar-systems
