@@ -10,12 +10,13 @@ A powerful library for creating 3D solar-systems
 * [ ] Create `sun` w/o pic
 * [ ] Create moon and stars
 * [ ] Finish Planets
+  * [x] Create Earth
   * [ ] Create `satern`
   * [ ] Create `jupiter`
   * [ ] Create `mars`
   * [ ] Create `mercury`
   * [ ] Create `neptune`
-  * [ ] Create `sun`
+  * [x] Create `sun`
   * [ ] Create `uranus`
   * [ ] Create `venus`
 * [ ] Create `paths`
