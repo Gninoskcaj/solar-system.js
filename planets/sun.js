@@ -1,5 +1,5 @@
 function sun() {
-	let bulbLight = new THREE.PointLight(0xffffff, 6, 50);
+	let bulbLight = new THREE.PointLight(0xffffff, 2, 100);
 	bulbLight.position.set(50, 50, 50);
 
 	let sunPic = new THREE.TextureLoader().load('https://space-assets-1.s3.us-east-2.amazonaws.com/sun_1.jpg')
