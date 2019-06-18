@@ -18,3 +18,4 @@ A powerful library for creating 3D solar-systems
   * [ ] Create `venus`
 * [ ] Create `paths`
 * [ ] Make `planets` realistic
+* [x] Add Hemisphere light
