@@ -1,17 +1,27 @@
 
-# Variables
-
 # Variables:
 
-### `/Init.js`
-<hr>
 
 
 
+# `init.js`
 
+`sceneBackgroundTextureLoader`
 
+[`scene: Scene`](https://threejs.org/docs/index.html#api/en/scenes/Scene)
 
-### `planets/earth.js`
+`aspect`
+
+`camera: PerspectiveCamera`
+
+`renderer`
+
+`controls: OrbitControls`
+
+`hemiLight`
+
+# `planets/earth.js`
+
 
 `earthColorMap`
 
@@ -20,3 +30,14 @@
 `earthStandardMater`
 
 `earth`
+
+# `planets/sun.js`
+
+
+`sun`
+
+`sunGeo`
+
+`sunPic`
+
+`sunMat`
