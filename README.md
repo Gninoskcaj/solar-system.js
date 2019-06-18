@@ -1,7 +1,6 @@
-
 # Solar-System.js
 
-fsdsdf
+A powerful library for creating 3D solar-systems
 
 ## Todo
 
