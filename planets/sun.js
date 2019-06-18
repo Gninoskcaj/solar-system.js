@@ -1,22 +1,19 @@
-function sun() {
-	let bulbLight = new THREE.PointLight(0xffffff, 2, 100);
-	bulbLight.position.set(50, 50, 50);
+let sun = new THREE.PointLight(0xffffff, 2, 100);
+sun.position.set(50, 50, 50);
 
-	let sunPic = new THREE.TextureLoader().load('https://space-assets-1.s3.us-east-2.amazonaws.com/sun_1.jpg')
-	bulbLight.position.set(50, 50, 50);
+let sunPic = new THREE.TextureLoader().load('https://space-assets-1.s3.us-east-2.amazonaws.com/sun_1.jpg')
+sun.position.set(50, 50, 50);
 
-	let bulbGeo = new THREE.SphereBufferGeometry(2, 32, 16)
+let bulbGeo = new THREE.SphereBufferGeometry(2, 32, 16)
 
-	bulbMat = new THREE.MeshStandardMaterial({
-		emissive: 'yellow',
-		emissiveMap: sunPic,
-		emissiveIntensity: 12,
-	});
+sunMat = new THREE.MeshStandardMaterial({
+	emissive: 'yellow',
+	emissiveMap: sunPic,
+	emissiveIntensity: 12,
+});
 
-	bulbLight.add(new THREE.Mesh(bulbGeo, bulbMat));
-	bulbLight.position.set(0, 2, 0);
-	bulbLight.castShadow = true;
+sun.add(new THREE.Mesh(bulbGeo, sunMat));
+sun.position.set(0, 2, 0);
+sun.castShadow = true;
 
-	scene.add(bulbLight)
-}
-sun()
+scene.add(sun)

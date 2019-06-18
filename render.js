@@ -13,7 +13,10 @@ function render() {
 	mars.position.y = Math.sin(time * 0.00115) * 30;
 	mars.position.z = Math.sin(time * 0.00115) * 30;
 
-	earth.rotation.y += .05;
+
+	earth.rotation.y += .25;
+	sun.rotation.y += .01;
+	mars
 	renderer.render(scene, camera);
 };
 
