@@ -5,7 +5,7 @@
 -   [ ] Create moon and stars
 -   [ ] Finish Planets
     -   [x] Create Earth
-    -   [ ] Create `satern`
+    -   [ ] Create `saturn`
     -   [ ] Create `jupiter`
     -   [x] Create `mars`
     -   [ ] Create `mercury`

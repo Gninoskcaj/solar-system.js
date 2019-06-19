@@ -56,17 +56,17 @@ let jupiterPath = new THREE.LineLoop(jupiterPathGeo, pathBasicMater);
 jupiterPathGeo.vertices.shift();
 jupiterPath.rotation.x = 14.16;
 
-// Satern Path
-var saternPathRadLoop = 85;
-let saternPathSegLoop = 128;
-let saternPathGeo = new THREE.CircleGeometry(
-	saternPathRadLoop,
-	saternPathSegLoop
+// saturn Path
+var saturnPathRadLoop = 85;
+let saturnPathSegLoop = 128;
+let saturnPathGeo = new THREE.CircleGeometry(
+	saturnPathRadLoop,
+	saturnPathSegLoop
 );
-let saternPath = new THREE.LineLoop(saternPathGeo, pathBasicMater);
+let saturnPath = new THREE.LineLoop(saturnPathGeo, pathBasicMater);
 
-saternPathGeo.vertices.shift();
-saternPath.rotation.x = 14.16;
+saturnPathGeo.vertices.shift();
+saturnPath.rotation.x = 14.16;
 
 // Add Paths
 
@@ -74,5 +74,5 @@ scene.add(mercuryPath);
 scene.add(venusPath);
 scene.add(marsPath);
 scene.add(jupiterPath);
-scene.add(saternPath);
+scene.add(saturnPath);
 scene.add(earthPath);

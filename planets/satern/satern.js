@@ -1,13 +1,13 @@
-let saternColorMap = new THREE.TextureLoader().load(
-	'https://space-assets-1.s3.us-east-2.amazonaws.com/satern.jpg'
+let saturnColorMap = new THREE.TextureLoader().load(
+	'https://space-assets-1.s3.us-east-2.amazonaws.com/saturn.jpg'
 );
 
-let saternGeo = new THREE.SphereBufferGeometry(10, 32, 16);
-let saternStandardMater = new THREE.MeshStandardMaterial({
+let saturnGeo = new THREE.SphereBufferGeometry(10, 32, 16);
+let saturnStandardMater = new THREE.MeshStandardMaterial({
 	flatShading: false,
 	wireframe: false,
-	map: saternColorMap,
+	map: saturnColorMap,
 });
-let satern = new THREE.Mesh(saternGeo, saternStandardMater);
+let saturn = new THREE.Mesh(saturnGeo, saturnStandardMater);
 
-scene.add(satern);
+scene.add(saturn);
