@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Gninoskcaj/solar-system.js/issues"
   },
-  "homepage": "https://github.com/Gninoskcaj/solar-system.js#readme"
+  "homepage": "https://github.com/Gninoskcaj/solar-system.js#readme",
+  "dependencies": {
+    "prettier": "^1.18.2"
+  }
 }
