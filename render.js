@@ -4,22 +4,27 @@ function render() {
 	requestAnimationFrame(render);
 
 	// Earth
-	earth.position.x = Math.cos(time * 0.001) * 14;
-	earth.position.z = Math.sin(time * 0.001) * 14;
+	mercury.position.x = Math.cos(time * 0.0017) * 14;
+	mercury.position.z = Math.sin(time * 0.0017) * 14;
+
+	// Earth
+	earth.position.x = Math.cos(time * 0.001) * 19;
+	earth.position.z = Math.sin(time * 0.001) * 19;
 
 	// Mars
-	mars.position.x = Math.cos(time * 0.00095) * 19;
-	mars.position.z = Math.sin(time * 0.00095) * 19;
+	mars.position.x = Math.cos(time * 0.00095) * 25;
+	mars.position.z = Math.sin(time * 0.00095) * 25;
 
 	// Moon
-	moon.position.x = Math.cos(time * 0.001) * 17;
-	moon.position.z = Math.sin(time * 0.001) * 17;
+	moon.position.x = Math.cos(time * 0.001) * 22;
+	moon.position.z = Math.sin(time * 0.001) * 22;
 
-	earth.rotation.y += .365;
+	mercury.rotation.y += .1;
+	earth.rotation.y += 3.65;
 	moon.rotation.y += .365;
-
 	mars.rotation.y += .387;
 	sun.rotation.y += .01;
+
 	renderer.render(scene, camera);
 };
 
