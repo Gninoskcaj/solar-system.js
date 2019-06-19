@@ -6,9 +6,8 @@ let jupiterColorMap = new THREE.TextureLoader().load(
 let jupiterGeo = new THREE.SphereBufferGeometry(6, 32, 16);
 let jupiterStandardMater = new THREE.MeshStandardMaterial({
 	flatShading: false,
-	color: 'white',
 	wireframe: false,
-	// map: jupiterColorMap,
+	map: jupiterColorMap,
 });
 let jupiter = new THREE.Mesh(jupiterGeo, jupiterStandardMater);
 scene.add(jupiter);
