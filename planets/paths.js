@@ -76,4 +76,5 @@ scene.add(mercuryPath);
 scene.add(venusPath);
 scene.add(marsPath);
 scene.add(jupiterPath);
+scene.add(saternPath)
 scene.add(earthPath);
