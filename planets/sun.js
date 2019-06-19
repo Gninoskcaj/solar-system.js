@@ -1,4 +1,4 @@
-let sun = new THREE.PointLight(0xffffff, 2, 100);
+let sun = new THREE.PointLight(0xffffff, 1, 1000);
 sun.position.set(50, 50, 50);
 
 let sunPic = new THREE.TextureLoader().load(
