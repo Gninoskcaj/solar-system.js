@@ -23,6 +23,8 @@ A powerful library for creating 3D solar-systems
 -   [ ] Make `planets` realistic
 -   [x] Add Hemisphere light
 -   [ ] Make astroid belt
+-   [ ] Add Text
+-   [ ] Add Moons
 
 # Contributing
 
