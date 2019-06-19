@@ -16,7 +16,7 @@ mercuryPath.rotation.x = 14.16;
 
 
 // Venus Path
-var venusPathRadLoop = 19;
+var venusPathRadLoop = 20;
 let venusPathSegLoop = 128;
 let venusPathGeo = new THREE.CircleGeometry(venusPathRadLoop,venusPathSegLoop);
 let venusPath = new THREE.LineLoop(venusPathGeo, pathBasicMater);
