@@ -59,7 +59,53 @@
 `marsStandardMater`
 
 
-# `planets/mars.js`
+# `planets/paths.js`
+
+
+`pathBasicMater`
+
+`earthPathRadLoop`
+
+`earthPathSegLoop`
+
+`earthPathGeo`
+
+`earthPath`
+
+`marsPathRadLoop`
+
+`marsPathSegLoop`
+
+`marsPathGeo`
+
+`marsPath`
+
+`mercuryPathRadLoop`
+
+`mercuryPathSegLoop`
+
+`mercuryPathGeo`
+
+`mercuryPath`
+
+`venusPathRadLoop`
+
+`venusPathSegLoop`
+
+`venusPathGeo`
+
+`venusPath`
+
+`jupiterPathRadLoop`
+
+`jupiterPathSegLoop`
+
+`jupiterPathGeo`
+
+`jupiterPath`
+
+
+# `planets/.js`
 
 
 `pathBasicMater`
