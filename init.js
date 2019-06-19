@@ -8,12 +8,19 @@ let renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 let controls = new THREE.OrbitControls(camera, renderer.domElement);
-camera.position.z = 12;
-camera.position.x = 20;
-camera.position.z = 12;
+window.addEventListener('resize', onWindowResize, false);
+
+camera.position.z = 65;
+
 scene.background = {
 	texture: sceneBakgroundTextureLoader,
 };
 
 hemiLight = new THREE.HemisphereLight(0xddeeff, 0x0f0e0d, 1);
 scene.add(hemiLight);
+
+function onWindowResize() {
+	camera.aspect = window.innerWidth / window.innerHeight;
+	camera.updateProjectionMatrix();
+	renderer.setSize(window.innerWidth, window.innerHeight);
+}
