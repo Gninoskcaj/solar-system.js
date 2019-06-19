@@ -4,8 +4,8 @@ function render() {
 	requestAnimationFrame(render);
 
 	// Earth
-	mercury.position.x = Math.cos(time * 0.001) * 14;
-	mercury.position.z = Math.sin(time * 0.001) * 14;
+	mercury.position.x = Math.cos(time * 0.0017) * 14;
+	mercury.position.z = Math.sin(time * 0.0017) * 14;
 
 	// Earth
 	earth.position.x = Math.cos(time * 0.001) * 19;
