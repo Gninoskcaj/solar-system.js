@@ -7,5 +7,5 @@
 		wireframe: false,
 		map: marsColorMap,
 	});
-	let mars = new THREE.Mesh(marsGeo, marsStandatdMater);
+	let mars = new THREE.Mesh(marsGeo, marsStandardMater);
 	scene.add(mars);
