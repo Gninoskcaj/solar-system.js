@@ -68,13 +68,11 @@ let saternPath = new THREE.LineLoop(saternPathGeo, pathBasicMater);
 saternPathGeo.vertices.shift();
 saternPath.rotation.x = 14.16;
 
-
-
 // Add Paths
 
 scene.add(mercuryPath);
 scene.add(venusPath);
 scene.add(marsPath);
 scene.add(jupiterPath);
-scene.add(saternPath)
+scene.add(saternPath);
 scene.add(earthPath);

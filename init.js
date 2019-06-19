@@ -10,7 +10,6 @@ document.body.appendChild(renderer.domElement);
 let controls = new THREE.OrbitControls(camera, renderer.domElement);
 window.addEventListener('resize', onWindowResize, false);
 
-
 camera.position.z = 65;
 
 scene.background = {
@@ -19,7 +18,6 @@ scene.background = {
 
 hemiLight = new THREE.HemisphereLight(0xddeeff, 0x0f0e0d, 1);
 scene.add(hemiLight);
-
 
 function onWindowResize() {
 	camera.aspect = window.innerWidth / window.innerHeight;
