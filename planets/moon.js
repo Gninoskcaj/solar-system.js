@@ -1,4 +1,3 @@
-
 let moonColorMap = new THREE.TextureLoader().load(
 	'https://space-assets-1.s3.us-east-2.amazonaws.com/moon.jpg'
 );
@@ -9,5 +8,5 @@ let moonStandardMater = new THREE.MeshStandardMaterial({
 	wireframe: false,
 	map: moonColorMap,
 });
-let earth = new THREE.Mesh(moonGeo, moonStandardMater);
+let moon = new THREE.Mesh(moonGeo, moonStandardMater);
 scene.add(moon);
