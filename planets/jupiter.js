@@ -9,5 +9,5 @@ let jupiterStandardMater = new THREE.MeshStandardMaterial({
 	wireframe: false,
 	map: jupiterColorMap,
 });
-let earth = new THREE.Mesh(jupiterGeo, jupiterStandardMater);
+let jupiter = new THREE.Mesh(jupiterGeo, jupiterStandardMater);
 scene.add(jupiter);
