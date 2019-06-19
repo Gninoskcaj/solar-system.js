@@ -12,16 +12,17 @@ A powerful library for creating 3D solar-systems
 -   [ ] Finish Planets
     -   [x] Create Earth
     -   [ ] Create `satern`
-    -   [ ] Create `jupiter`
+    -   [x] Create `jupiter`
     -   [x] Create `mars`
     -   [ ] Create `mercury`
     -   [ ] Create `neptune`
     -   [x] Create `sun`
     -   [ ] Create `uranus`
-    -   [ ] Create `venus`
+    -   [x] Create `venus`
 -   [x] Create `paths`
 -   [ ] Make `planets` realistic
 -   [x] Add Hemisphere light
+-   [ ] Make astroid belt
 
 # Contributing
 
