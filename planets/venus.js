@@ -3,7 +3,7 @@ venusColorMap = new THREE.TextureLoader().load(
 	'https://space-assets-1.s3.us-east-2.amazonaws.com/earth.jpg'
 );
 
-let venusGeo = new THREE.SphereBufferGeometry(2, 32, 16);
+let venusGeo = new THREE.SphereBufferGeometry(2.2, 32, 16);
 let venusStandardMater = new THREE.MeshStandardMaterial({
 	flatShading: false,
 	wireframe: false,
