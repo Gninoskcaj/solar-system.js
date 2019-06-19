@@ -19,7 +19,7 @@ function render() {
 	moon.position.x = Math.cos(time * 0.001) * 22;
 	moon.position.z = Math.sin(time * 0.001) * 22;
 
-	mercury.rotation.y += .02;
+	mercury.rotation.y += .1;
 	earth.rotation.y += 3.65;
 	moon.rotation.y += .365;
 	mars.rotation.y += .387;
