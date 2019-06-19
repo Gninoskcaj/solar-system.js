@@ -1,4 +1,3 @@
-
 venusColorMap = new THREE.TextureLoader().load(
 	'https://space-assets-1.s3.us-east-2.amazonaws.com/venus.jpg'
 );

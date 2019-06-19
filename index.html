@@ -1,38 +1,34 @@
 <html>
+	<head>
+		<title>Solar-System.js</title>
+		<style>
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+		</style>
+	</head>
 
-<head>
-	<title>Solar-System.js</title>
-	<style>
-		html,
-		body {
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-		}
-	</style>
-</head>
+	<body>
+		<!-- Init Three.js -->
+		<script src="JS/THREE.js/three.js"></script>
+		<script src="JS/THREE.js/OrbitControls.js"></script>
+		<script src="init.js"></script>
 
-<body>
-	<!-- Init Three.js -->
-	<script src="JS/THREE.js/three.js"></script>
-	<script src="JS/THREE.js/OrbitControls.js"></script>
-	<script src="init.js"></script>
+		<!-- src -->
+		<script src="planets/sun.js"></script>
+		<script src="planets/mercury.js"></script>
+		<script src="planets/venus.js"></script>
+		<script src="planets/earth.js"></script>
+		<script src="planets/moon.js"></script>
+		<script src="planets/mars.js"></script>
+		<script src="planets/jupiter.js"></script>
 
-	<!-- src -->
-	<script src="planets/sun.js"></script>
-	<script src="planets/mercury.js"></script>
-	<script src="planets/venus.js"></script>
-	<script src="planets/earth.js"></script>
-	<script src="planets/moon.js"></script>
-	<script src="planets/mars.js"></script>
+		<script src="planets/paths.js"></script>
 
-
-	<script src="planets/paths.js"></script>
-
-
-
-	<!-- Render the app -->
-	<script src="render.js"></script>
-</body>
-
+		<!-- Render the app -->
+		<script src="render.js"></script>
+	</body>
 </html>

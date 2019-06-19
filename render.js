@@ -1,5 +1,5 @@
 function render() {
-	let time = Date.now()
+	let time = Date.now();
 
 	requestAnimationFrame(render);
 
@@ -19,18 +19,23 @@ function render() {
 	mars.position.x = Math.cos(time * 0.00095) * 35;
 	mars.position.z = Math.sin(time * 0.00095) * 35;
 
+	// Jupiter
+	jupiter.position.x = Math.cos(time * 0.0001) * 50;
+	jupiter.position.z = Math.sin(time * 0.0001) * 50;
+
 	// // Moon
 	// moon.position.x = Math.cos(time * 0.001) * 28;
 	// moon.position.z = Math.sin(time * 0.001) * 28;
 
-	mercury.rotation.y += .1;
-	venus.rotation.y += .09;
+	mercury.rotation.y += 0.1;
+	venus.rotation.y += 0.09;
 	earth.rotation.y += 3.65;
-	moon.rotation.y += .365;
-	mars.rotation.y += .387;
-	sun.rotation.y += .01;
+	moon.rotation.y += 0.365;
+	mars.rotation.y += 0.387;
+	jupiter.rotation.y += 0.09;
+	sun.rotation.y += 0.01;
 
 	renderer.render(scene, camera);
-};
+}
 
 render();
