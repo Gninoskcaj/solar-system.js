@@ -8,9 +8,8 @@ let renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 let controls = new THREE.OrbitControls(camera, renderer.domElement);
-camera.position.z = 12;
-camera.position.x = 20;
-camera.position.z = 12;
+camera.position.z = 65;
+
 scene.background = {
 	texture: sceneBakgroundTextureLoader,
 };
