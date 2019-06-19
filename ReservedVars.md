@@ -57,3 +57,26 @@
 `marsColorMap`
 
 `marsStandardMater`
+
+
+# `planets/mars.js`
+
+
+`pathBasicMater`
+
+`earthPathRadLoop`
+
+`earthPathSegLoop`
+
+`earthPathGeo`
+
+`earthPath`
+
+`marsPathRadLoop`
+
+`marsPathSegLoop`
+
+`marsPathGeo`
+
+`marsPath`
+
