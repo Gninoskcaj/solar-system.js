@@ -1,0 +1,7 @@
+LICENSE
+node_modules/**
+.gitattributes
+.gitignore
+.prettierignore
+.github/**
+.DS_Store

@@ -1,8 +1,4 @@
-
 # Variables:
-
-
-
 
 # `init.js`
 
@@ -22,7 +18,6 @@
 
 # `planets/earth.js`
 
-
 `earthColorMap`
 
 `earthNormalMap`
@@ -37,7 +32,6 @@
 
 # `planets/sun.js`
 
-
 `sun`
 
 `sunGeo`
@@ -46,9 +40,7 @@
 
 `sunMat`
 
-
 # `planets/mars.js`
-
 
 `mars`
 
@@ -58,9 +50,7 @@
 
 `marsStandardMater`
 
-
 # `planets/paths.js`
-
 
 `pathBasicMater`
 
@@ -104,9 +94,7 @@
 
 `jupiterPath`
 
-
 # `planets/mercury.js`
-
 
 `mercury`
 
@@ -117,7 +105,6 @@
 `mercuryStandardMater`
 
 # `planets/jupiter.js`
-
 
 `jupiter`
 
