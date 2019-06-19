@@ -14,8 +14,18 @@ let mercuryPath = new THREE.LineLoop(mercuryPathGeo, pathBasicMater);
 mercuryPathGeo.vertices.shift();
 mercuryPath.rotation.x = 14.16;
 
+
+// Venus Path
+var venusPathRadLoop = 19;
+let venusPathSegLoop = 128;
+let venusPathGeo = new THREE.CircleGeometry(venusPathRadLoop,venusPathSegLoop);
+let venusPath = new THREE.LineLoop(venusPathGeo, pathBasicMater);
+
+venusPathGeo.vertices.shift();
+venusPath.rotation.x = 14.16;
+
 // Earth Path
-var earthPathRadLoop = 19;
+var earthPathRadLoop = 28;
 let earthPathSegLoop = 128;
 let earthPathGeo = new THREE.CircleGeometry(earthPathRadLoop,earthPathSegLoop);
 let earthPath = new THREE.LineLoop(earthPathGeo, pathBasicMater);
@@ -25,7 +35,7 @@ earthPath.rotation.x = 14.16;
 
 
 // Mars
-var marsPathRadLoop = 25;
+var marsPathRadLoop = 35.4;
 let marsPathSegLoop = 128;
 let marsPathGeo = new THREE.CircleGeometry(marsPathRadLoop , marsPathSegLoop);
 let marsPath = new THREE.LineLoop(marsPathGeo, pathBasicMater);
@@ -38,5 +48,6 @@ marsPath.rotation.x = 14.16;
 // Add Paths
 
 scene.add(mercuryPath);
+scene.add(venusPath)
 scene.add(marsPath);
 scene.add(earthPath);

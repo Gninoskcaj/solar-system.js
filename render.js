@@ -8,8 +8,8 @@ function render() {
 	mercury.position.z = Math.sin(time * 0.0017) * 14;
 
 	// Venus
-	venus.position.x = Math.cos(time * 0.0007) * 18;
-	venus.position.z = Math.sin(time * 0.0007) * 18;
+	venus.position.x = Math.cos(time * 0.0007) * 20;
+	venus.position.z = Math.sin(time * 0.0007) * 20;
 
 	// Earth
 	earth.position.x = Math.cos(time * 0.001) * 28;
