@@ -116,3 +116,13 @@
 
 `mercuryStandardMater`
 
+# `planets/jupiter.js`
+
+
+`jupiter`
+
+`jupiterColorMap`
+
+`jupiterGeo`
+
+`jupiterStandardMater`
