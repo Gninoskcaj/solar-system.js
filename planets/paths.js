@@ -49,7 +49,7 @@ var jupiterPathRadLoop = 50;
 let jupiterPathSegLoop = 128;
 let jupiterPathGeo = new THREE.CircleGeometry(
 	jupiterPathRadLoop,
-	mercuryPathSegLoop
+	jupiterPathSegLoop
 );
 let jupiterPath = new THREE.LineLoop(jupiterPathGeo, pathBasicMater);
 
