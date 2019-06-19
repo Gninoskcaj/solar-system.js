@@ -1,6 +1,6 @@
 
 venusColorMap = new THREE.TextureLoader().load(
-	'https://space-assets-1.s3.us-east-2.amazonaws.com/earth.jpg'
+	'https://space-assets-1.s3.us-east-2.amazonaws.com/venus.jpg'
 );
 
 let venusGeo = new THREE.SphereBufferGeometry(2.2, 32, 16);
