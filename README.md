@@ -19,7 +19,7 @@ A powerful library for creating 3D solar-systems
   * [x] Create `sun`
   * [ ] Create `uranus`
   * [ ] Create `venus`
-* [ ] Create `paths`
+* [x] Create `paths`
 * [ ] Make `planets` realistic
 * [x] Add Hemisphere light
 
