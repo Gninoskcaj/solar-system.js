@@ -5,6 +5,15 @@ let pathBasicMater = new THREE.LineBasicMaterial({
 	opacity: .3
 	});
 
+// Mercury Path
+var mercuryPathRadLoop = 14;
+let mercuryPathSegLoop = 128;
+let mercuryPathGeo = new THREE.CircleGeometry(mercuryPathRadLoop,mercuryPathSegLoop);
+let mercuryPath = new THREE.LineLoop(mercuryPathGeo, pathBasicMater);
+
+mercuryPathGeo.vertices.shift();
+mercuryPath.rotation.x = 14.16;
+
 // Earth Path
 var earthPathRadLoop = 19;
 let earthPathSegLoop = 128;
@@ -28,5 +37,6 @@ marsPath.rotation.x = 14.16;
 
 // Add Paths
 
+scene.add(mercuryPath);
 scene.add(marsPath);
 scene.add(earthPath);
