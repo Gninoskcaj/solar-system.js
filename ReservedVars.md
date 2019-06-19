@@ -105,24 +105,14 @@
 `jupiterPath`
 
 
-# `planets/.js`
+# `planets/mercury.js`
 
 
-`pathBasicMater`
+`mercury`
 
-`earthPathRadLoop`
+`mercuryColorMap`
 
-`earthPathSegLoop`
+`mercuryGeo`
 
-`earthPathGeo`
-
-`earthPath`
-
-`marsPathRadLoop`
-
-`marsPathSegLoop`
-
-`marsPathGeo`
-
-`marsPath`
+`mercuryStandardMater`
 
