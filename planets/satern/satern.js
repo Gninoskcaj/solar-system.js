@@ -1,5 +1,5 @@
 let saternColorMap = new THREE.TextureLoader().load(
-	'https://space-assets-1.s3.us-east-2.amazonaws.com/earth.jpg'
+	'https://space-assets-1.s3.us-east-2.amazonaws.com/satern.jpg'
 );
 
 let saternGeo = new THREE.SphereBufferGeometry(10, 32, 16);
