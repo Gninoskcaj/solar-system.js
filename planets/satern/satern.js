@@ -1,4 +1,4 @@
-let earthColorMap = new THREE.TextureLoader().load(
+let saternColorMap = new THREE.TextureLoader().load(
 	'https://space-assets-1.s3.us-east-2.amazonaws.com/earth.jpg'
 );
 
