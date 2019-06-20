@@ -70,7 +70,7 @@ saturnPath.rotation.x = 14.16;
 
 
 // Uranus
-var uranusPathRadLoop = 85;
+var uranusPathRadLoop = 199;
 let uranusPathSegLoop = 128;
 let uranusPathGeo = new THREE.CircleGeometry(
 	uranusPathRadLoop,
