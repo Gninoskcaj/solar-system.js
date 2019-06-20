@@ -23,9 +23,13 @@ function render() {
 	jupiter.position.x = Math.cos(time * 0.0001) * 50;
 	jupiter.position.z = Math.sin(time * 0.0001) * 50;
 
-	// Satern
-	satern.position.x = Math.cos(time * 0.00009) * 87;
-	satern.position.z = Math.sin(time * 0.00009) * 87;
+	// Saturn
+	saturn.position.x = Math.cos(time * 0.00009) * 87;
+	saturn.position.z = Math.sin(time * 0.00009) * 87;
+
+	// Uranus
+	uranus.position.x = Math.cos(time * 0.00009) * 200;
+	uranus.position.z = Math.sin(time * 0.00009) * 200;
 
 	// // Moon
 	// moon.position.x = Math.cos(time * 0.001) * 28;
@@ -37,7 +41,8 @@ function render() {
 	moon.rotation.y += 0.365;
 	mars.rotation.y += 0.387;
 	jupiter.rotation.y += 0.09;
-	satern.rotation.y += 0.1;
+	saturn.rotation.y += 0.1;
+	mercury.rotation.y += 0.1;
 	sun.rotation.y += 0.01;
 
 	renderer.render(scene, camera);
