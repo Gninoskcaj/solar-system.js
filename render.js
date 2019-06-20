@@ -23,9 +23,13 @@ function render() {
 	jupiter.position.x = Math.cos(time * 0.0001) * 50;
 	jupiter.position.z = Math.sin(time * 0.0001) * 50;
 
-	// saturn
+	// Saturn
 	saturn.position.x = Math.cos(time * 0.00009) * 87;
 	saturn.position.z = Math.sin(time * 0.00009) * 87;
+
+	// Uranus
+	uranus.position.x = Math.cos(time * 0.00009) * 200;
+	uranus.position.z = Math.sin(time * 0.00009) * 200;
 
 	// // Moon
 	// moon.position.x = Math.cos(time * 0.001) * 28;
