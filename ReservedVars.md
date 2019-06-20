@@ -110,7 +110,6 @@
 
 `uranusPath`
 
-
 # `planets/mercury.js`
 
 `mercury`
