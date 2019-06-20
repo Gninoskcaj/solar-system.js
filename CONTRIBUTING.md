@@ -17,4 +17,6 @@
 -   [ ] Make `planets` realistic
 -   [x] Add Hemisphere light
 
+always `npm run lint`
+
 #### Note: All Contributions are welcome!
