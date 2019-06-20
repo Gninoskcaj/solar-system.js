@@ -17,4 +17,4 @@
 -   [ ] Make `planets` realistic
 -   [x] Add Hemisphere light
 
-All Contributions are welcome
+#### Note: All Contributions are welcome!
