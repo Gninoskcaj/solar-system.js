@@ -80,8 +80,8 @@ let uranusPath = new THREE.LineLoop(uranusPathGeo, pathBasicMater);
 
 uranusPathGeo.vertices.shift();
 uranusPath.rotation.x = 14.16;
-// Add Paths
 
+// Add Paths
 scene.add(earthPath);
 scene.add(mercuryPath);
 scene.add(venusPath);
