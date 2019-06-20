@@ -42,6 +42,7 @@ function render() {
 	mars.rotation.y += 0.387;
 	jupiter.rotation.y += 0.09;
 	saturn.rotation.y += 0.1;
+	mercury.rotation.y += 0.1;
 	sun.rotation.y += 0.01;
 
 	renderer.render(scene, camera);
