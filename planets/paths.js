@@ -68,7 +68,6 @@ let saturnPath = new THREE.LineLoop(saturnPathGeo, pathBasicMater);
 saturnPathGeo.vertices.shift();
 saturnPath.rotation.x = 14.16;
 
-
 // Uranus
 var uranusPathRadLoop = 199;
 let uranusPathSegLoop = 128;
@@ -88,5 +87,4 @@ scene.add(venusPath);
 scene.add(marsPath);
 scene.add(jupiterPath);
 scene.add(saturnPath);
-scene.add(uranusPath)
-
+scene.add(uranusPath);
