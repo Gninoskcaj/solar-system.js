@@ -70,9 +70,11 @@ saturnPath.rotation.x = 14.16;
 
 // Add Paths
 
+scene.add(earthPath);
 scene.add(mercuryPath);
 scene.add(venusPath);
 scene.add(marsPath);
 scene.add(jupiterPath);
 scene.add(saturnPath);
-scene.add(earthPath);
+scene.add(uranusPath)
+
