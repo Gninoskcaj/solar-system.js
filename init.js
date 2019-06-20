@@ -16,11 +16,13 @@ scene.background = {
 	texture: sceneBakgroundTextureLoader,
 };
 
-hemiLight = new THREE.HemisphereLight(0xddeeff, 0x0f0e0d, 1);
-scene.add(hemiLight);
+
 
 function onWindowResize() {
 	camera.aspect = window.innerWidth / window.innerHeight;
 	camera.updateProjectionMatrix();
 	renderer.setSize(window.innerWidth, window.innerHeight);
 }
+
+hemiLight = new THREE.HemisphereLight(0xddeeff, 0x0f0e0d, 1);
+scene.add(hemiLight);
