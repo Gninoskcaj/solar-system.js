@@ -4,4 +4,3 @@ node_modules/**
 .gitignore
 .prettierignore
 .github/**
-.DS_Store
