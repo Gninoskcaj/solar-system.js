@@ -94,6 +94,22 @@
 
 `jupiterPath`
 
+`saturnPathRadLoop`
+
+`saturnPathSegLoop`
+
+`saturnPathGeo`
+
+`saturnPath`
+
+`uranusPathRadLoop`
+
+`uranusPathSegLoop`
+
+`uranusPathGeo`
+
+`uranusPath`
+
 # `planets/mercury.js`
 
 `mercury`
@@ -113,3 +129,23 @@
 `jupiterGeo`
 
 `jupiterStandardMater`
+
+# `planets/saturn.js`
+
+`saturn`
+
+`saturnColorMap`
+
+`saturnGeo`
+
+`saturnStandardMater`
+
+# `planets/uranus.js`
+
+`uranus`
+
+`uranusColorMap`
+
+`uranusGeo`
+
+`uranusStandardMater`

@@ -25,6 +25,7 @@ A powerful library for creating 3D solar-systems
 -   [ ] Make astroid belt
 -   [ ] Add Text
 -   [ ] Add Moons
+-   [ ] Add Click
 
 # Contributing
 
