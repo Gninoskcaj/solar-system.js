@@ -1,8 +1,8 @@
 let uranusColorMap = new THREE.TextureLoader().load(
-	'https://space-assets-1.s3.us-east-2.amazonaws.com/earth.jpg'
+	'https://space-assets-1.s3.us-east-2.amazonaws.com/uranus.jpg'
 );
 
-let uranusGeo = new THREE.SphereBufferGeometry(2, 32, 16);
+let uranusGeo = new THREE.SphereBufferGeometry(6, 32, 16);
 let uranusStandardMater = new THREE.MeshStandardMaterial({
 	flatShading: false,
 	wireframe: false,
