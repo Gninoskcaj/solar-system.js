@@ -9,13 +9,13 @@ A powerful library for creating 3D solar-systems
 -   [x] Create `README.md`
 -   [ ] Create `sun` w/o pic
 -   [ ] Create moon and stars
--   [ ] Finish Planets
+-   [x] Finish Planets
     -   [x] Create Earth
-    -   [ ] Create `saturn`
+    -   [x] Create `saturn`
     -   [x] Create `jupiter`
     -   [x] Create `mars`
     -   [x] Create `mercury`
-    -   [ ] Create `neptune`
+    -   [x] Create `neptune`
     -   [x] Create `sun`
     -   [x] Create `uranus`
     -   [x] Create `venus`
